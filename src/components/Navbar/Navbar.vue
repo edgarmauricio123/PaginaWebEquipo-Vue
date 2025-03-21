@@ -1,3 +1,15 @@
+<script>
+
+export default{
+    data(){
+        return{
+
+        }
+    }
+} 
+
+
+</script>
 <template>
     <nav class="navbar navbar-expand-lg custom-bg" data-bs-theme="dark">
         <div class="container-fluid">
