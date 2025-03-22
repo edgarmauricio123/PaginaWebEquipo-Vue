@@ -1,3 +1,16 @@
+<script>
+import cafe from "C:/Users/edgar/OneDrive/Escritorio/TRABAJOS 6 SEMESTRE/Programacion Web/TRABBAJOS VITE.JS/PaginaWebEquipo/src/assets/Descripcion/CafeTradicional.jpg"
+
+export default {
+    data() {
+        return {
+            cafe, 
+        };
+    },
+};
+
+</script>
+
 <template>
     <div id="inicio" class="container-fluid banner">
         <div class="text-container">
@@ -13,7 +26,7 @@
             <button class="btn btn-outline-light">Contacto</button>
         </div>
         <div class="col-md-6 text-center">
-            <img src="" class="img-cafe" alt="Taza de café">
+            <img :src="cafe" class="img-cafe" alt="Taza de café">
         </div>
     </div>
 </template>

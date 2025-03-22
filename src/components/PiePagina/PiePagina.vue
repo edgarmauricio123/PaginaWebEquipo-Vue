@@ -1,12 +1,28 @@
+<script>
+import facebook from "C:/Users/edgar/OneDrive/Escritorio/TRABAJOS 6 SEMESTRE/Programacion Web/TRABBAJOS VITE.JS/PaginaWebEquipo/src/assets/PiePagina/facebook.png"
+import instagram from "C:/Users/edgar/OneDrive/Escritorio/TRABAJOS 6 SEMESTRE/Programacion Web/TRABBAJOS VITE.JS/PaginaWebEquipo/src/assets/PiePagina/instagram.png"
+import x from "C:/Users/edgar/OneDrive/Escritorio/TRABAJOS 6 SEMESTRE/Programacion Web/TRABBAJOS VITE.JS/PaginaWebEquipo/src/assets/PiePagina/x.png"
+
+export default {
+    data() {
+        return {
+            facebook,instagram,x, 
+        };
+    },
+};
+
+
+</script>
+
 <template>
     <footer id="acercade">
         <div class="footer">
             <div>
                 <h3>Redes Sociales</h3>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100094324200093"><img width="20" height="20" src="" alt=""></a>
-                    <a href="https://www.instagram.com/tectlaxiaco/?fbclid=IwY2xjawI59IxleHRuA2FlbQIxMAABHb7qtzORdkP2LZt5Y5WIe0X2MaSm8rmUuzgHPnSGcqt4D7RvKCofOSzeXQ_aem_cpiL2LEY_GSaLimwPfUxsA#"><img width="28" height="23" src="" alt=""></a>
-                    <a href="https://x.com/TecNMTlaxiaco?fbclid=IwY2xjawI59JFleHRuA2FlbQIxMAABHWISnFYKNI2XUKAhlMYXIHTizlUJJYCgW4-2c45fwwzeupSkJxSnIzr1WQ_aem_nL-JwAwdMdeHFTRRe8xJgg"><img width="20" height="20" src="" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100094324200093"><img width="20" height="20" :src="facebook" alt=""></a>
+                    <a href="https://www.instagram.com/tectlaxiaco/?fbclid=IwY2xjawI59IxleHRuA2FlbQIxMAABHb7qtzORdkP2LZt5Y5WIe0X2MaSm8rmUuzgHPnSGcqt4D7RvKCofOSzeXQ_aem_cpiL2LEY_GSaLimwPfUxsA#"><img width="28" height="23" :src="instagram" alt=""></a>
+                    <a href="https://x.com/TecNMTlaxiaco?fbclid=IwY2xjawI59JFleHRuA2FlbQIxMAABHWISnFYKNI2XUKAhlMYXIHTizlUJJYCgW4-2c45fwwzeupSkJxSnIzr1WQ_aem_nL-JwAwdMdeHFTRRe8xJgg"><img width="20" height="20" :src="x" alt=""></a>
                 </div>
                 
             </div>
